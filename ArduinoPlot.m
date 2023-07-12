@@ -1,39 +1,10 @@
-% t005T10ms.txt
-% 005 je 0.05 za parametar Tf, T=10ms perioda odabiranja preko tajmera
+% testStillMotorsOffDrift.txt
+% senzor se ne pomera, motori NE RADE
 
-% t01kalmanComp.txt
-% raw, kalman, complementary, T bez rada motora
+% testStill.txt
+% senzor se ne pomera, motori RADE
 
-% t01ComplKalmanOnOff
-% tau=0.98
-% raw, kalman, complementary, T bez rada motora
-% Na svakih 5s ukljucujemo jedan pa drugi filtar
-
-% t002ComplKalmanOnOff095tauMotorOnDiff
-% raw, kalman, compl, T, draw, dkalman, dcompl, u
-
-% t002ComplKalmanOnOff095tauMotorOnDiffMYfilter
-% raw, kalman, compl, firstOrderFil, T, draw, dkalman, dcompl, dfirstOrderFil,  u
-% p=e^(0.02/0.2)
-
-% t002ComplKalmanOnOff095tauMotorOnDiffMYfilterP09
-% isto kao prethodni samo je sada p=e^(0.02/0.9)
-
-% t002FreeFall
-% angleAcc, kalman, compl, dangleAcc, dkalman, dcompl
-% experimenting with free fall from stable point
-
-% t002RawGyro
-% raw(do sad je raw oduvek bio racunat samo preko accelerometra), compl,
-% kalman, rawGyro, T, u
-
-% t002MotorOnly2, 3, 4
-% rawAcc, compl, kalm, rawGyro, T, u
-
-% t002MotorOnly2
-% imao je krpu koja je malo amortizovala, ali se javlja smetnja na 15Hz
-
-% testOscilations
+% testOscilations.txt
 % kod 1 smo snimali signal da bismo odredili kolika je najveca frekvencija
 % oscilacija, ali bez rada motora, a ostali imaju rad motora
 % kod 2 je Tf=0.1786
