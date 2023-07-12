@@ -1,2 +1,2 @@
 # Real-time-angle-filtering
-Uticaj razlicitih filtera na problem racunanja preciznog ugla sa senzora
+Uticaj razlicitih filtera na problem racunanja preciznog ugla sa senzora. AngleFiltering.ino je kod koji se prebacuje na Arduino. ArduinoPlot.m je MATLAB fajl koji ocekuje podatke u txt fajlu. Ti podaci se dobijaju tako sto otvorimo serijski port npr. u Arduino IDE programu, i kopiramo ono sto se ispisalo u konzoli u txt fajl koji procitamo u MATLABU. Nakon otvaranja, moguc je prikaz razlika izmedju filtara, prikaz sprektralnog sadrzaja signala, ili raspodele nekog signala. Snimljeni podaci se nalaze u folderu measurements.
